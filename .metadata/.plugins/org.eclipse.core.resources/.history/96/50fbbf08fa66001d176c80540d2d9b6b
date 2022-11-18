@@ -1,0 +1,19 @@
+package com.example.demo.tradicional;
+
+public class Universidad {
+
+	private String nombre;
+	private String facultad;
+	
+	public void registraUni (String nombreUni, String facultad) {
+		this.nombre= nombreUni;
+		this.facultad=facultad;
+	}
+	
+	@Override
+	public String toString() {
+		return "Universidad [Nombre=" + nombre + ", Facultad=" + facultad + "]";
+	}
+	
+	
+}

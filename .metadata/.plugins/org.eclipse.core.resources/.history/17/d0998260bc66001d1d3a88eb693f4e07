@@ -1,0 +1,31 @@
+package com.example.demo.tradicional;
+
+import java.time.LocalDateTime;
+
+public class Matricula {
+
+	private LocalDateTime fechaRegistro;
+	private LocalDateTime fechaInicio;
+	private Universidad universidad;
+	private Estudiante estudiante;
+	private String carrera;
+	private String nivel;
+
+	private void generaMatricula(String carrera, String nivel, LocalDateTime fechaRegistro, LocalDateTime fechaInicio,
+			String nomUniversidad, String facultad, String nombreEstudiante, String cedula) {
+		this.carrera=carrera;
+		this.nivel=nivel;
+		this.fechaInicio=fechaInicio;
+		this.fechaRegistro=LocalDateTime.now();
+		
+		Estudiante estudianteTemp = new Estudiante();
+		estudianteTemp.generaEstudiante(nombreEstudiante, cedula);
+		
+		
+	}
+
+	private void imprimeMatricula() {
+
+	}
+
+}

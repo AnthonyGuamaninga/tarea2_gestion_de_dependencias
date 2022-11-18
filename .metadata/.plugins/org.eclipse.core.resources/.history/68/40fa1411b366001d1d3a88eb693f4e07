@@ -1,0 +1,23 @@
+package com.example.demo.tradicional;
+
+public class Profesor {
+
+	private String Nombre;
+	private String cedula;
+	
+	// SET Y GET
+	public String getNombre() {
+		return Nombre;
+	}
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+	public String getCedula() {
+		return cedula;
+	}
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
+	}
+	
+	
+}

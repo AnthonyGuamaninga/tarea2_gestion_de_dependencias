@@ -1,0 +1,19 @@
+package com.example.demo.tradicional;
+
+import java.time.LocalDateTime;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Matricula matricula = new Matricula();
+		matricula.generaMatricula("Computacion", "nivelacion", LocalDateTime.of(2023, 1, 22, 8, 30), "UCE",
+				"Ingerieria y Ciencias Aplicadas", "Julian Beltran", "1254366893");
+
+		matricula.generaMatricula("Medicina", "nivelacion", LocalDateTime.of(2023, 1, 22, 8, 30), "UTE",
+				"Ciencias de la Salud", "Daniela Cordova", "1798445368");
+		
+	}
+
+}
