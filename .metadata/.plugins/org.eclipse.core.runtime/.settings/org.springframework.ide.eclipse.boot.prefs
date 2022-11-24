@@ -1,12 +1,12 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=tarea2_gestion_de_dependencias
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=tareas_programacion_avanzada_u1
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.5
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Tarea No2\: Gestion de dependencias 
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Tareas Programacion Avanzada
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=uce.gob.ec.avanzada
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=tarea2_gestion_de_dependencias
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=tareas_programacion_avanzada_u1
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.example.demo
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
